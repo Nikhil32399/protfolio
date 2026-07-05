@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurra Nikhil Teja | AI/ML & Cloud Engineer Portfolio</title>
+    
+    <!-- Meta tags for SEO -->
+    <meta name="description" content="Portfolio of Kurra Nikhil Teja - Computer Science & Engineering student specializing in GenAI, AI/ML, Cloud Solutions (AWS/Azure), and Data Engineering.">
+    <meta name="keywords" content="Kurra Nikhil Teja, Portfolio, Software Engineer, AI ML Engineer, Generative AI, Cloud Solutions, Data Engineering, AWS, Azure, React, Python">
+    <meta name="author" content="Kurra Nikhil Teja">
+
+    <!-- Preconnecting to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Elements -->
+    <div class="bg-gradient-orb orb-1"></div>
+    <div class="bg-gradient-orb orb-2"></div>
+    <div class="bg-gradient-orb orb-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>Nikhil Teja<span class="logo-accent"> /&gt;</span>
+            </a>
+            
+            <nav class="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#internships" class="nav-link">Internships</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#certificates" class="nav-link">Certifications</a>
+                <a href="#contact" class="btn btn-primary contact-btn">Let's Talk</a>
+            </nav>
+
+            <button class="mobile-nav-toggle" aria-label="Toggle navigation menu" id="mobile-toggle">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobile-drawer">
+        <button class="mobile-drawer-close" aria-label="Close menu" id="mobile-close">
+            <i data-lucide="x"></i>
+        </button>
+        <div class="drawer-links">
+            <a href="#about" class="drawer-link">About</a>
+            <a href="#education" class="drawer-link">Education</a>
+            <a href="#skills" class="drawer-link">Skills</a>
+            <a href="#internships" class="drawer-link">Internships</a>
+            <a href="#projects" class="drawer-link">Projects</a>
+            <a href="#achievements" class="drawer-link">Achievements</a>
+            <a href="#certificates" class="drawer-link">Certifications</a>
+            <a href="#contact" class="btn btn-primary">Let's Talk</a>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <!-- Hero Section (About) -->
+        <section class="hero-section" id="about">
+            <div class="hero-container">
+                <div class="hero-image-side">
+                    <div class="profile-image-container glow-box">
+                        <div class="image-inner-border">
+                            <img src="assets/profile.jpg" alt="Kurra Nikhil Teja Profile Picture" class="profile-img">
+                        </div>
+                    </div>
+                    <div class="hero-buttons">
+                        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn-hero btn-linkedin">
+                            <i data-lucide="linkedin"></i>
+                            LinkedIn
+                        </a>
+                        <a href="#" target="_blank" class="btn-hero btn-resume">
+                            <i data-lucide="file-text"></i>
+                            Resume
+                        </a>
+                        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn-hero btn-github">
+                            <i data-lucide="github"></i>
+                            GitHub
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-text-content">
+                    <div class="badge-row">
+                        <span class="status-badge"><span class="pulse-dot"></span>Open to Opportunities</span>
+                    </div>
+                    <h1 class="hero-title-greeting">Hello, I am Kurra Nikhil Teja</h1>
+                    <h2 class="hero-subtitle">GenAI Engineer | AI/ML Developer | Cloud Specialist</h2>
+                    <p class="hero-description-paragraph">
+                        A dedicated Computer Science & Engineering student at KL University specializing in building scalable machine learning pipelines, Generative AI models, and robust cloud configurations. Experienced in processing big datasets, deploying web services, and architecting multi-cloud solutions using modern engineering toolsets.
+                    </p>
+                    <div class="hero-quick-details">
+                        <div class="quick-detail-item">
+                            <i data-lucide="mail"></i>
+                            <a href="mailto:nikhiltejakurra14@gmail.com">nikhiltejakurra14@gmail.com</a>
+                        </div>
+                        <div class="quick-detail-item">
+                            <i data-lucide="phone"></i>
+                            <a href="tel:+91905963056">+91 90596 3056</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <a href="#education" class="scroll-link" aria-label="Scroll down">
+                    <span class="scroll-mouse"><span class="scroll-wheel"></span></span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section class="section education-section" id="education">
+            <div class="section-container">
+                <span class="section-tagline">Academic History</span>
+                <h2 class="section-title">Education</h2>
+                
+                <div class="timeline">
+                    <!-- KL University -->
+                    <div class="timeline-item">
+                        <div class="timeline-content glass-card">
+                            <h3>KL University, Guntur</h3>
+                            <p class="degree">B.Tech (Computer Science and Engineering)</p>
+                            <p class="duration">2022 – 2026</p>
+                            <p class="grade">CGPA: 8.9</p>
+                        </div>
+                        <div class="timeline-marker"></div>
+                    </div>
+
+                    <!-- Sri Chaitanya Junior College -->
+                    <div class="timeline-item">
+                        <div class="timeline-content glass-card">
+                            <h3>Sri Chaitanya Junior College, Hyderabad</h3>
+                            <p class="degree">Intermediate (Class XII)</p>
+                            <p class="duration">2020 – 2022</p>
+                            <p class="grade">Percentage: 90.4%</p>
+                        </div>
+                        <div class="timeline-marker"></div>
+                    </div>
+
+                    <!-- Sri Chaitanya School -->
+                    <div class="timeline-item">
+                        <div class="timeline-content glass-card">
+                            <h3>Sri Chaitanya School, Guntur</h3>
+                            <p class="degree">Matriculation (Class X)</p>
+                            <p class="duration">Year of Completion: 2020</p>
+                            <p class="grade">Percentage: 100%</p>
+                        </div>
+                        <div class="timeline-marker"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="section skills-section" id="skills">
+            <div class="section-container">
+                <span class="section-tagline">Technical Stack</span>
+                <h2 class="section-title">Skills</h2>
+                
+                <div class="skills-grid">
+                    <!-- Languages -->
+                    <div class="skill-category glass-card">
+                        <h3>Programming Languages</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Python</span>
+                            <span class="skill-badge">JavaScript</span>
+                            <span class="skill-badge">SQL</span>
+                            <span class="skill-badge">Java</span>
+                            <span class="skill-badge">HTML & CSS</span>
+                        </div>
+                    </div>
+
+                    <!-- GenAI -->
+                    <div class="skill-category glass-card">
+                        <h3>Generative AI</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">LLMs</span>
+                            <span class="skill-badge">Prompt Engineering</span>
+                            <span class="skill-badge">AI Agents</span>
+                            <span class="skill-badge">Gemini API</span>
+                        </div>
+                    </div>
+
+                    <!-- AI/ML -->
+                    <div class="skill-category glass-card">
+                        <h3>AI / ML & NLP</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Supervised ML</span>
+                            <span class="skill-badge">XGBoost</span>
+                            <span class="skill-badge">Scikit-learn</span>
+                            <span class="skill-badge">PyTorch / TF</span>
+                            <span class="skill-badge">LSTM</span>
+                            <span class="skill-badge">NLP</span>
+                            <span class="skill-badge">Word2Vec</span>
+                        </div>
+                    </div>
+
+                    <!-- Cloud -->
+                    <div class="skill-category glass-card">
+                        <h3>Cloud Platforms</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">AWS (EC2, Lambda, S3)</span>
+                            <span class="skill-badge">Azure (ADF, Databricks, ML)</span>
+                            <span class="skill-badge">Azure Storage</span>
+                        </div>
+                    </div>
+
+                    <!-- Data Engineering -->
+                    <div class="skill-category glass-card">
+                        <h3>Data Engineering</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">ETL Pipelines</span>
+                            <span class="skill-badge">ADF Pipelines</span>
+                            <span class="skill-badge">Delta Lake</span>
+                            <span class="skill-badge">Apache Spark</span>
+                            <span class="skill-badge">MySQL</span>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Frameworks -->
+                    <div class="skill-category glass-card">
+                        <h3>Tools & Frameworks</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Git & GitHub</span>
+                            <span class="skill-badge">Docker</span>
+                            <span class="skill-badge">Node.js</span>
+                            <span class="skill-badge">React.js</span>
+                            <span class="skill-badge">Flask</span>
+                            <span class="skill-badge">Excel</span>
+                            <span class="skill-badge">Canva</span>
+                        </div>
+                    </div>
+
+                    <!-- Soft Skills -->
+                    <div class="skill-category glass-card">
+                        <h3>Soft Skills</h3>
+                        <div class="skill-badges">
+                            <span class="skill-badge">Problem-Solving</span>
+                            <span class="skill-badge">Adaptability & Curiosity</span>
+                            <span class="skill-badge">Time Management</span>
+                            <span class="skill-badge">Analytical Thinking</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Internships Section -->
+        <section class="section internships-section" id="internships">
+            <div class="section-container">
+                <span class="section-tagline">Industry Experience</span>
+                <h2 class="section-title">Internships</h2>
+
+                <div class="internships-list">
+                    <!-- Deloitte -->
+                    <div class="internship-card glass-card">
+                        <div class="internship-header">
+                            <div class="internship-title-row">
+                                <h3>Data Analytics Intern</h3>
+                                <span class="badge-org">Deloitte</span>
+                            </div>
+                            <span class="internship-date">Virtual Term</span>
+                        </div>
+                        <div class="internship-content">
+                            <p>Analyzed structured business datasets to identify trends, patterns, and actionable insights that supported data-driven decision-making. Performed data cleaning, validation, and visualization to improve data quality and effectively communicate analytical findings. Applied exploratory data analysis (EDA) techniques to evaluate business case studies, developed recommendations, and collaborated in a simulated environment to solve business problems.</p>
+                            <div class="internship-tags">
+                                <span class="tech-tag">Data Analytics</span>
+                                <span class="tech-tag">EDA</span>
+                                <span class="tech-tag">Data Quality</span>
+                                <span class="tech-tag">Visualization</span>
+                                <span class="tech-tag">Consulting Simulation</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section class="section projects-section" id="projects">
+            <div class="section-container">
+                <span class="section-tagline">Works & Projects</span>
+                <h2 class="section-title">Projects</h2>
+
+                <div class="projects-grid">
+                    <!-- Fake News -->
+                    <div class="project-card glass-card">
+                        <div class="project-banner news-banner">
+                            <i data-lucide="newspaper" class="project-banner-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Fake News Detection System</h3>
+                            <p>Developed an LSTM-based deep learning model using Word2Vec embeddings to classify fake vs real news with ~96% accuracy. Processed and cleaned 70k+ news articles using NLP and Spark. Deployed the prediction system using Flask API on AWS EC2, with front-end hosting on AWS S3. Utilized dropout, early stopping, and multiprocessing to optimize model training.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Python</span>
+                                <span class="tech-badge">NLP</span>
+                                <span class="tech-badge">LSTM</span>
+                                <span class="tech-badge">Spark</span>
+                                <span class="tech-badge">Flask</span>
+                                <span class="tech-badge">AWS EC2/S3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Course Management -->
+                    <div class="project-card glass-card">
+                        <div class="project-banner course-banner">
+                            <i data-lucide="book-open" class="project-banner-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Student Course Management System</h3>
+                            <p>Developed a role-based course management system featuring secure authentication workflows for Admin, Faculty, and Student users. Integrated a MySQL database to enable efficient storage, retrieval, and management of student, course, and attendance records. Built modules for course enrollment, attendance tracking, and administrative tasks.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">React.js</span>
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">MySQL</span>
+                                <span class="tech-badge">AWS</span>
+                                <span class="tech-badge">HTML/CSS/JS</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Supply Chain SCM -->
+                    <div class="project-card glass-card">
+                        <div class="project-banner scm-banner">
+                            <i data-lucide="truck" class="project-banner-icon"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-Commerce Supply Chain Management</h3>
+                            <p>Developed an end-to-end supply chain system to manage inventory, supplier details, customer orders, and deliveries. Designed CRUD operations with MySQL for relational data storage and retrieval. Built modules for inventory logging, order processing, and tracking. Optimized database operations for secure storage.</p>
+                            <div class="tech-stack">
+                                <span class="tech-badge">Java</span>
+                                <span class="tech-badge">MySQL</span>
+                                <span class="tech-badge">Node.js</span>
+                                <span class="tech-badge">HTML/CSS</span>
+                                <span class="tech-badge">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section class="section achievements-section" id="achievements">
+            <div class="section-container">
+                <span class="section-tagline">Academic & Tech Milestones</span>
+                <h2 class="section-title">Achievements</h2>
+
+                <div class="achievements-grid">
+                    <div class="achievement-card glass-card">
+                        <h3>Matriculation Topper</h3>
+                        <p>Achieved a perfect score of 100% in Class X Matriculation exams at Sri Chaitanya School, reflecting consistent academic excellence and dedication.</p>
+                    </div>
+                    <div class="achievement-card glass-card">
+                        <h3>High Academic Standing - KL University</h3>
+                        <p>Maintained a competitive cumulative CGPA of 8.9 in Computer Science and Engineering at KL University, demonstrating strong foundational capabilities.</p>
+                    </div>
+                    <div class="achievement-card glass-card">
+                        <h3>AWS & Multi-Cloud Networking Specialist</h3>
+                        <p>Earned AWS Certified Cloud Practitioner and Aviatrix MultiCloud Network Associate certifications, proving competency in managing networks across AWS and Azure.</p>
+                    </div>
+                    <div class="achievement-card glass-card">
+                        <h3>Advanced Deep Learning Implementations</h3>
+                        <p>Successfully designed and deployed a deep learning LSTM news classifier on AWS EC2, processing over 70,000 text records with NLP techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section class="section certificates-section" id="certificates">
+            <div class="section-container">
+                <span class="section-tagline">Verified Credentials</span>
+                <h2 class="section-title">Certifications</h2>
+
+                <div class="certifications-grid">
+                    <!-- AWS Certified -->
+                    <div class="certification-card glass-card">
+                        <div class="cert-image-side">
+                            <i data-lucide="award" class="cert-placeholder-icon aws-cert"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h3>AWS Certified Cloud Practitioner</h3>
+                            <p class="issuer">Amazon Web Services (AWS)</p>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="verify-btn">
+                                <i data-lucide="check-circle-2"></i>
+                                Verified Credential
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Java Basic -->
+                    <div class="certification-card glass-card">
+                        <div class="cert-image-side">
+                            <i data-lucide="award" class="cert-placeholder-icon hr-cert"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h3>Java (Basic)</h3>
+                            <p class="issuer">HackerRank</p>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="verify-btn">
+                                <i data-lucide="check-circle-2"></i>
+                                Verified Credential
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- MultiCloud Net -->
+                    <div class="certification-card glass-card">
+                        <div class="cert-image-side">
+                            <i data-lucide="award" class="cert-placeholder-icon aviatrix-cert"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h3>MultiCloud Network Associate</h3>
+                            <p class="issuer">Aviatrix</p>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="verify-btn">
+                                <i data-lucide="check-circle-2"></i>
+                                Verified Credential
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Automation Anywhere -->
+                    <div class="certification-card glass-card">
+                        <div class="cert-image-side">
+                            <i data-lucide="award" class="cert-placeholder-icon rpa-cert"></i>
+                        </div>
+                        <div class="certification-content">
+                            <h3>Automation Anywhere Certified Essentials RPA Professional</h3>
+                            <p class="issuer">Automation Anywhere</p>
+                            <a href="#" target="_blank" rel="noopener noreferrer" class="verify-btn">
+                                <i data-lucide="check-circle-2"></i>
+                                Verified Credential
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="section contact-section" id="contact">
+            <div class="section-container">
+                <span class="section-tagline">Communication</span>
+                <h2 class="section-title">Contact Me</h2>
+                <p class="contact-intro-p">I'm always open to discussing new opportunities, collaborations, or just having a chat about technology and innovation. Feel free to reach out!</p>
+
+                <div class="contact-grid">
+                    <div class="contact-form-panel glass-card">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <label for="form-name">Full Name</label>
+                                <input type="text" id="form-name" required placeholder="John Doe">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-email">Email Address</label>
+                                <input type="email" id="form-email" required placeholder="john@example.com">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-subject">Subject</label>
+                                <input type="text" id="form-subject" required placeholder="Project Discussion">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="form-message">Message</label>
+                                <textarea id="form-message" rows="5" required placeholder="Write your message here..."></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary submit-btn" id="submit-btn">
+                                <span>Send Message</span>
+                                <i data-lucide="send"></i>
+                            </button>
+                        </form>
+                        <div class="success-message" id="success-message">
+                            <div class="success-icon-box">
+                                <i data-lucide="check-circle-2"></i>
+                            </div>
+                            <h3>Message Sent!</h3>
+                            <p>Thank you for reaching out. I'll get back to you as soon as possible.</p>
+                            <button class="btn btn-secondary" id="reset-form-btn">Send another message</button>
+                        </div>
+                    </div>
+
+                    <div class="contact-details-list-panel glass-card">
+                        <div class="contact-item-row">
+                            <div class="contact-icon-box"><i data-lucide="mail"></i></div>
+                            <div class="contact-item-details">
+                                <span class="contact-item-lbl">Email</span>
+                                <a href="mailto:nikhiltejakurra14@gmail.com">nikhiltejakurra14@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item-row">
+                            <div class="contact-icon-box"><i data-lucide="linkedin"></i></div>
+                            <div class="contact-item-details">
+                                <span class="contact-item-lbl">LinkedIn</span>
+                                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item-row">
+                            <div class="contact-icon-box"><i data-lucide="file-text"></i></div>
+                            <div class="contact-item-details">
+                                <span class="contact-item-lbl">Resume</span>
+                                <a href="#" target="_blank">Download Resume</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Recruiter Message Section -->
+        <section class="section recruiter-section">
+            <div class="section-container recruiter-container glass-card">
+                <h2>Dear Recruiters,</h2>
+                <p class="recruiter-letter">
+                    If you're looking for someone who enjoys building intelligent models, writing efficient data pipelines, designing clean microservices, and deploying scalable cloud environments — you're in the right place 😄<br><br>
+                    I bring a strong mix of Generative AI, Machine Learning, Data Engineering, and Multi-Cloud architectures. Let's build something impactful together — your product, my passion, and a bit of coding.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p class="copyright">&copy; 2026 Kurra Nikhil Teja. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#about">About</a>
+                <a href="#education">Education</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="app.js"></script>
+</body>
+</html>
